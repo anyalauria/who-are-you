@@ -1,0 +1,47 @@
+.topnav {
+    background-color: rgb(188, 223, 157);
+    overflow: hidden;
+    display: flex;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .poetrynav.topnav a {
+    left: 920px;
+  }
+
+  .topnav a {
+    position: relative;
+    left: 580px;
+    color: #921996;
+    padding: 14px 2px;
+    text-decoration: none;
+    font-size: 17px;
+    flex: 0 0 5%;
+    text-align: center;
+    justify-content: flex-end;
+    width: 10px;
+    height: 30px;
+    gap: 5px;
+
+  }
+    
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ .poetry {
+     text-align: center;
+ }
+
+ .poemTitle {
+     background-color: rgb(122, 175, 22);
+     padding: 15px 15px;
+ }
+
+ #poem1 {
+     background-color: rgb(229, 241, 5);
+     padding: 14px 14px;
+     margin-top: -20px;
+ }
